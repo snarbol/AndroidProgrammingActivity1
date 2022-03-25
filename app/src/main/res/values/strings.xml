@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Programming Activity1</string>
+    <string name="first_name">First Name</string>
+    <string name="First_Name">First_Name</string>
+    <string name="email_address">Email_Address</string>
+    <string name="last_name">Last Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="gender">Gender</string>
+    <string name="home_address">Home Address</string>
+    <string name="civil_status_married_or_single">Civil Status(Married or Single)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="emergency_contact_phone_number">Emergency Contact (Phone Number)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

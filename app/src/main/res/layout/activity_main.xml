@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="@string/email_address"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="333dp"
+            android:layout_height="46dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="162dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="24dp"
+        android:hint="@string/First_Name"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:textColorHint="#757575"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="162dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="224dp"
+        android:hint="@string/last_name"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="174dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:textColorHint="#757575"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="144dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/middle_name"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="161dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="36dp"
+        android:hint="@string/birth_date"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout2"
+        tools:layout_editor_absoluteY="174dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="92dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="292dp"
+        android:hint="@string/gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="86dp"
+            android:layout_height="44dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="92dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="92dp"
+        android:hint="Age"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="HardcodedText,MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="86dp"
+            android:layout_height="44dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="332dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="52dp"
+        android:hint="@string/home_address"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="333dp"
+            android:layout_height="46dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="332dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="52dp"
+        android:hint="@string/civil_status_married_or_single"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="373dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="333dp"
+            android:layout_height="46dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="332dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="52dp"
+        android:hint="@string/phone_number"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:prefixText="+63"
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="333dp"
+            android:layout_height="46dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="336dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="48dp"
+        android:hint="@string/emergency_contact_phone_number"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:prefixText="+63"
+        tools:layout_editor_absoluteY="516dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="333dp"
+            android:layout_height="46dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
